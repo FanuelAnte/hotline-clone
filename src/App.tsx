@@ -4,6 +4,9 @@ import BetSelectionButton from "./components/bet_selection_button";
 import HistoryBar from "./components/history_bar";
 import RiskMode from "./components/risk_mode";
 
+import arrow from "../src/assets/hotline-arrow.svg";
+import fire from "../src/assets/icon-hot.svg";
+
 function App() {
   return (
     <>
@@ -15,13 +18,9 @@ function App() {
             </div>
             <div className="flex w-full h-full items-center p-2">
               <div className="flex flex-col items-center border-1 border-blue-200/35 justify-between bg-dark-blue w-full h-[188px] md:h-[248px] rounded-xl inset-shadow-2xs inset-shadow-black/20">
-                <img src="src/assets/hotline-arrow.svg" alt="arrow1" />
+                <img src={arrow} alt="arrow1" />
                 <img src="src/assets/cards.png" alt="Cards" />
-                <img
-                  src="src/assets/hotline-arrow.svg"
-                  alt="arrow2"
-                  className="rotate-180"
-                />
+                <img src={arrow} alt="arrow2" className="rotate-180" />
               </div>
             </div>
             <div className="flex flex-col w-full h-full justify-end pb-8 md:pb-0 items-center md:justify-center">
@@ -43,7 +42,7 @@ function App() {
                   <BetSelectionButton
                     text={
                       <div className="flex flex-col items-center gap-1">
-                        <img src="src/assets/icon-hot.svg" alt="hot" />
+                        <img src={fire} alt="hot" />
                         <p>X32</p>
                       </div>
                     }

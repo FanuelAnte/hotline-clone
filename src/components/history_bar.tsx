@@ -1,4 +1,6 @@
 import HistoryDots from "./history_dots";
+import history_icon from "../assets/icon-rounds-history.28821710fef20c17.svg";
+import down_arrow from "../assets/icon-dd-arrow.e394e8c554623388.svg";
 
 function HistoryBar() {
   return (
@@ -12,14 +14,8 @@ function HistoryBar() {
           <HistoryDots color="bg-history-black" />
         </div>
         <div className="flex flex-row h-full items-center inset-shadow-2xs inset-shadow-button-blue-highlight gap-1.5 p-1 border-1 border-black/50 rounded-full bg-button-blue">
-          <img
-            src="src/assets/icon-rounds-history.28821710fef20c17.svg"
-            alt="round"
-          />
-          <img
-            src="src/assets/icon-dd-arrow.e394e8c554623388.svg"
-            alt="arrow"
-          />
+          <img src={history_icon} alt="round" />
+          <img src={down_arrow} alt="arrow" />
         </div>
       </div>
     </>

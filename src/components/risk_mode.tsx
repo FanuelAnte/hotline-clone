@@ -1,3 +1,5 @@
+import speedometer from "../assets/icon-speedometer.svg";
+
 import { useState } from "react";
 
 function RiskMode() {
@@ -5,11 +7,7 @@ function RiskMode() {
 
   return (
     <div className="flex flex-row items-center bg-darker-blue h-[30px] py-4 min-w-[205px] rounded-full px-2 gap-6">
-      <img
-        src="src/assets/icon-speedometer.svg"
-        alt="speedometer"
-        className="h-5 w-5"
-      />
+      <img src={speedometer} alt="speedometer" className="h-5 w-5" />
       <div className="flex flex-row items-center gap-2 text-xs">
         <button
           onClick={() => setEnabled((prev) => !prev)}
