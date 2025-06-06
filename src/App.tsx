@@ -6,6 +6,7 @@ import RiskMode from "./components/risk_mode";
 
 import arrow from "../src/assets/hotline-arrow.svg";
 import fire from "../src/assets/icon-hot.svg";
+import cards from "../src/assets/cards.png";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
             <div className="flex w-full h-full items-center p-2">
               <div className="flex flex-col items-center border-1 border-blue-200/35 justify-between bg-dark-blue w-full h-[188px] md:h-[248px] rounded-xl inset-shadow-2xs inset-shadow-black/20">
                 <img src={arrow} alt="arrow1" />
-                <img src="src/assets/cards.png" alt="Cards" />
+                <img src={cards} alt="Cards" />
                 <img src={arrow} alt="arrow2" className="rotate-180" />
               </div>
             </div>
