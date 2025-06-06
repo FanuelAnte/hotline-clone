@@ -1,6 +1,9 @@
 @import "tailwindcss";
 
 @theme {
+  --color-history-red: #f22143;
+  --color-history-black: #0a1f34;
+
   --color-button-red-center: #ed0011;
   --color-button-red-edge: #ba000c;
   --color-button-red-highlight: #da4f51;

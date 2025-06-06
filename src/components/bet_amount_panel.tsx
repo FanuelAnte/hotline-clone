@@ -11,7 +11,7 @@ function BetAmountPanel() {
         <div className="flex flex-col items-center w-full justify-center">
           <p className="text-xs">Bet USD</p>
           <input
-            className="h-[22px] bg-darker-blue rounded-full inset-shadow-2xs inset-shadow-black/20 border-1 border-black/80 text-center text-white text-sm font-bold placeholder:text-white focus:outline-white focus:outline-1"
+            className="h-[22px] w-[140px] bg-darker-blue rounded-full inset-shadow-2xs inset-shadow-black/20 border-1 border-black/80 text-center text-white text-sm font-bold placeholder:text-white focus:outline-white focus:outline-1"
             placeholder="0.00"
           />
         </div>

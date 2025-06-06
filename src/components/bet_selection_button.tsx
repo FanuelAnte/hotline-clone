@@ -2,7 +2,7 @@ import type { ReactNode } from "react";
 
 type BetSelectionButtonProps = {
   text: ReactNode;
-  color?: string; // tailwind-compatible class like "bg-red-600"
+  color?: string;
 };
 
 function BetSelectionButton({ text, color }: BetSelectionButtonProps) {
