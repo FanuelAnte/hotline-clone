@@ -1,7 +1,17 @@
 @import "tailwindcss";
 
 @theme {
-  --color-button-red: #bf000d;
+  --color-button-red-center: #ed0011;
+  --color-button-red-edge: #ba000c;
+  --color-button-red-highlight: #da4f51;
+
+  --color-button-yellow-center: #daa254;
+  --color-button-yellow-edge: #c4872e;
+  --color-button-yellow-highlight: #e4b165;
+
+  --color-button-black-center: #171616;
+  --color-button-black-edge: #000000;
+  --color-button-black-highlight: #333029;
 
   --color-golden-yellow: #fb9c23;
 
