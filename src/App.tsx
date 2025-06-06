@@ -2,6 +2,7 @@ import "./App.css";
 import BetAmountButtons from "./components/bet_amount_panel";
 import BetSelectionButton from "./components/bet_selection_button";
 import HistoryBar from "./components/history_bar";
+import RiskMode from "./components/risk_mode";
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       <div className="w-screen h-screen bg-black flex items-center justify-center font-primary text-white">
         <div className="w-full h-full md:w-[960px] md:h-[540px] p-1">
           <div className="flex flex-col w-full h-full border-0.5 md:border-2 rounded-xl md:border-golden-yellow bg-gradient-to-r from-light-blue-edge via-light-blue-center to-light-blue-edge">
-            <div className="flex flex-col w-full h-full items-center justify-end pb-3">
+            <div className="flex flex-col w-full h-full items-center md:justify-end p-1 pb-3">
               <HistoryBar />
             </div>
             <div className="flex w-full h-full items-center p-2">
@@ -23,10 +24,13 @@ function App() {
                 />
               </div>
             </div>
-            <div className="flex flex-col h-full justify-end">
+            <div className="flex flex-col w-full h-full justify-end pb-8 md:pb-0 items-center md:justify-center">
+              <RiskMode />
+            </div>
+            <div className="flex flex-col justify-end">
               <div className="flex flex-col-reverse md:flex-row w-full bg-darker-blue rounded-2xl p-2 gap-6 md:gap-3 justify-center md:items-stretch items-center">
                 <BetAmountButtons />
-                <div className="flex flex-row items-center justify-center gap-1 pt-1 md:pt-0 text-sm">
+                <div className="flex flex-row items-center justify-center gap-1 pt-1 md:pt-0 text-[13px]">
                   <BetSelectionButton
                     text={
                       <div className="flex flex-col items-center">
