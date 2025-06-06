@@ -8,8 +8,11 @@
   --color-light-blue-center: #1e4fac;
   --color-light-blue-edge: #3b5097;
 
+  --color-button-blue: #194eae;
+  --color-button-blue-highlight: #476eb4;
+
   --color-dark-blue: #193e86;
-  --color-darker-blue: #10367b;
+  --color-darker-blue: #23386e;
 
   --font-primary: "Roboto", "sans-serif";
 }
